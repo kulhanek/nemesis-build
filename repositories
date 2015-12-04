@@ -10,8 +10,8 @@ src/thirdparty/obcore/2.3.1 obcore
 src/thirdparty/readline/6.2.0 readline
 src/thirdparty/glew/1.5.8 glew
 src/thirdparty/gls/1.0.0 gls
-src/thirdparty/ftgl/2.1.3rc5 ftgl
 src/thirdparty/freetype/2.4.10 freetype
+src/thirdparty/ftgl/2.1.3rc5 ftgl
 src/thirdparty/zlib/1.2.7 zlib
 src/thirdparty/indigo/1.1 indigo
 # main code
