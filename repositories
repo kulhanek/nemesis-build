@@ -1,0 +1,28 @@
+# local directory | repository | test
+# thirdparty code
+src/thirdparty/blas/netlib blas
+src/thirdparty/lapack/3.1.1 lapack
+src/thirdparty/csparse/2.2.1 csparse
+src/thirdparty/ranlux/1.0 ranlux
+src/thirdparty/netcdfcore/4.0.1 netcdfcore
+src/thirdparty/boost/1.59.0 boost
+src/thirdparty/obcore/2.3.1 obcore
+src/thirdparty/readline/6.2.0 readline
+src/thirdparty/glew/1.5.8 glew
+src/thirdparty/gls/1.0.0 gls
+src/thirdparty/freetype/2.4.10 freetype
+src/thirdparty/ftgl/2.1.3rc5 ftgl
+src/thirdparty/zlib/1.2.7 zlib
+src/thirdparty/indigo/1.1 indigo
+src/thirdparty/vtk/6.3.0 vtk
+# main code
+src/projects/hipoly/1.0 hipoly
+src/projects/scimafic/1.0 scimafic
+src/projects/prmfile/1.0 prmfile
+src/projects/netlib/1.0 netlib
+src/projects/pmflib/5.0 pmflib T
+src/projects/asl/2.0 asl
+src/projects/cats/2.0 cats
+src/projects/nleap/1.0 nleap
+# final code
+src/projects/nemesis/15.x nemesis
