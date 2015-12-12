@@ -14,6 +14,7 @@ src/thirdparty/ftgl/2.1.3rc5 ftgl
 src/thirdparty/freetype/2.4.10 freetype
 src/thirdparty/zlib/1.2.7 zlib
 src/thirdparty/indigo/1.1 indigo
+src/thirdparty/vtk vtk
 # main code
 src/projects/hipoly/1.0 hipoly
 src/projects/scimafic/1.0 scimafic
