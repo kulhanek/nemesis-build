@@ -26,3 +26,4 @@ src/projects/cats/2.0 cats
 src/projects/nleap/1.0 nleap
 # final code
 src/projects/nemesis/15.x nemesis
+src/tests/vtktests/1.0 vtktests
