@@ -112,6 +112,7 @@ ADD_SUBDIRECTORY(src/thirdparty/ftgl/2.1.3rc5)
 ADD_SUBDIRECTORY(src/projects/hipoly/1.0)
 ADD_SUBDIRECTORY(src/projects/scimafic/1.0)
 ADD_SUBDIRECTORY(src/projects/prmfile/1.0)
+ADD_SUBDIRECTORY(src/projects/asl/2.0)
 ADD_SUBDIRECTORY(src/projects/nemesis/18.x)
 
 # ==============================================================================
