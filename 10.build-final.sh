@@ -95,3 +95,13 @@ if [ $? -ne 0 ]; then echo ">>> ERROR: see ams.log"; exit 1; fi
 echo "Log file: ams.log"
 echo ""
 
+# activate plugins
+cd $SOFTREPO/$PREFIX/$NAME/$VERS/$ARCH/$MODE/etc/plugins || exit 1
+./ConnectPlugins.sh all
+./ConnectPlugins.sh
+echo ""
+
+# hack
+cp /usr/lib/x86_64-linux-gnu/libGLEWmx.so.1.10 $SOFTREPO/$PREFIX/$NAME/$VERS/$ARCH/$MODE/lib/ || exit 1
+
+
