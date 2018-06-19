@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# ------------------------------------------------------------------------------
+# update revision number
+_PWD=$PWD
+if ! [ -d src/projects/nemesis/18.x ]; then
+    echo "src/projects/nemesis/18.x - not found"
+    exit 1
+fi
+# generate CATs version information --
+cd src/projects/nemesis/18.x || exit 1
+./UpdateGitVersion activate || exit 1
+VERS="18.`git rev-list --count HEAD`.`git rev-parse --short HEAD`"
+cd $_PWD
+

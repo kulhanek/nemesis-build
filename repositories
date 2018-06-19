@@ -8,6 +8,7 @@ src/thirdparty/obcore/2.4.0 obcore
 src/thirdparty/gls/1.0.0 gls
 src/thirdparty/ftgl/2.1.3rc5 ftgl
 # main code
+src/projects/cmake-modules/1.0 cmake-modules
 src/projects/hipoly/1.0 hipoly
 src/projects/scimafic/1.0 scimafic
 src/projects/prmfile/1.0 prmfile
