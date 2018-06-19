@@ -24,9 +24,6 @@ fi
 module add cmake git
 module add qt
 
-# required in IT4I
-module add intelcdk
-
 # ------------------------------------
 
 # determine number of available CPUs if not specified
@@ -48,7 +45,7 @@ if [ -f ./preinstall-hook ]; then
 fi
 
 # names ------------------------------
-NAME="cats"
+NAME="nemesis"
 ARCH=`uname -m`
 MODE="single"
 echo ""
