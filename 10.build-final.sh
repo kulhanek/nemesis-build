@@ -22,7 +22,10 @@ if ! type module &> /dev/null; then
 fi
 
 module add cmake git
-module add qt
+
+# the same version as on Ubuntu 18.04 LTS
+# we need webkit for Sketch Project
+module add qt:5.5.1
 
 # ------------------------------------
 
@@ -72,7 +75,7 @@ cat > $SOFTBLDS/$NAME:$VERS:$ARCH:$MODE.bld << EOF
     <deps>
         <dep name="libfftw3-dev"            type="deb"/>
         <dep name="libreadline-dev"         type="deb"/>
-        <dep name="qt:5.9.1"                type="sync"/>
+        <dep name="qt:5.5.1"                type="sync"/>
         <dep name="intelcore:2017.1.132"    type="sync"/>
     </deps>
 </build>
