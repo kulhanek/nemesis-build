@@ -107,6 +107,9 @@ ADD_SUBDIRECTORY(src/thirdparty/netcdfcore/4.0.1)
 ADD_SUBDIRECTORY(src/thirdparty/obcore/2.4.0)
 ADD_SUBDIRECTORY(src/thirdparty/gls/1.0.0)
 ADD_SUBDIRECTORY(src/thirdparty/ftgl/2.1.3rc5)
+ADD_SUBDIRECTORY(src/thirdparty/indigo/1.2.3)
+
+SET_PROPERTY(TARGET indigo_shared PROPERTY CXX_STANDARD 11)
 
 # projects ---------------------------------------
 ADD_SUBDIRECTORY(src/projects/hipoly/1.0)
@@ -122,6 +125,7 @@ ADD_DEPENDENCIES(cscimafic_shared hipoly_shared)
 ADD_DEPENDENCIES(cprmfile_shared hipoly_shared)
 ADD_DEPENDENCIES(asl_shared hipoly_shared cscimafic_shared cnetcdf_shared)
 ADD_DEPENDENCIES(nemesis_core_shared asl_shared cprmfile_shared cscimafic_shared obcore_shared gls_shared ftgl_shared)
+ADD_DEPENDENCIES(sketch_project_shared indigo_shared)
 
 IF(NOT MKL_FOUND)
     # local blas and lapack
