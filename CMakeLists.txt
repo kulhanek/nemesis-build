@@ -121,6 +121,7 @@ ADD_SUBDIRECTORY(src/projects/nemesis/18.x)
 ADD_DEPENDENCIES(cscimafic_shared hipoly_shared)
 ADD_DEPENDENCIES(cprmfile_shared hipoly_shared)
 ADD_DEPENDENCIES(asl_shared hipoly_shared cscimafic_shared cnetcdf_shared)
+ADD_DEPENDENCIES(plusula_shared asl_shared cprmfile_shared cscimafic_shared obcore_shared gls_shared ftgl_shared)
 ADD_DEPENDENCIES(nemesis_core_shared asl_shared cprmfile_shared cscimafic_shared obcore_shared gls_shared ftgl_shared)
 
 IF(NOT MKL_FOUND)
