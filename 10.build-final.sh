@@ -76,7 +76,7 @@ cat > $SOFTBLDS/$NAME:$VERS:$ARCH:$MODE.bld << EOF
         <dep name="libfftw3-dev"            type="deb"/>
         <dep name="libreadline-dev"         type="deb"/>
         <dep name="qt:5.5.1"                type="sync"/>
-        <dep name="intelcore:2017.1.132"    type="sync"/>
+        <dep name="libgstreamer-plugins-base0.10-0"  type="deb"/>
     </deps>
 </build>
 EOF
