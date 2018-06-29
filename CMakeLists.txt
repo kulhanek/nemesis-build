@@ -108,6 +108,7 @@ ADD_SUBDIRECTORY(src/thirdparty/obcore/2.4.0)
 ADD_SUBDIRECTORY(src/thirdparty/gls/1.0.0)
 ADD_SUBDIRECTORY(src/thirdparty/ftgl/2.1.3rc5)
 ADD_SUBDIRECTORY(src/thirdparty/indigo/1.2.3)
+ADD_SUBDIRECTORY(src/thirdparty/qcustomplot/2.0.1)
 
 SET_PROPERTY(TARGET indigo_shared PROPERTY CXX_STANDARD 11)
 
@@ -127,6 +128,7 @@ ADD_DEPENDENCIES(asl_shared hipoly_shared cscimafic_shared cnetcdf_shared)
 ADD_DEPENDENCIES(plusula_shared asl_shared cprmfile_shared cscimafic_shared obcore_shared gls_shared ftgl_shared)
 ADD_DEPENDENCIES(nemesis_core_shared asl_shared cprmfile_shared cscimafic_shared obcore_shared gls_shared ftgl_shared)
 ADD_DEPENDENCIES(sketch_project_shared indigo_shared)
+ADD_DEPENDENCIES(trajectory_project_shared qcp_shared)
 
 IF(NOT MKL_FOUND)
     # local blas and lapack

@@ -22,10 +22,7 @@ if ! type module &> /dev/null; then
 fi
 
 module add cmake git
-
-# the same version as on Ubuntu 18.04 LTS
-# we need webkit for Sketch Project
-module add qt:5.5.1
+module add qt:5.9.1
 
 # ------------------------------------
 
