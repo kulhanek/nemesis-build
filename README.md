@@ -42,6 +42,5 @@ $ ./ConnectPlugins.sh
 ## Dependencies
 * qt5
 * OpenGL
-* libglewmx-dev
 * libfreetype6-dev
 

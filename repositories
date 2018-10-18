@@ -5,7 +5,6 @@ src/thirdparty/lapack/3.1.1 lapack
 src/thirdparty/netcdfcore/4.0.1 netcdfcore
 src/thirdparty/boost/1.65.1 boost
 src/thirdparty/obcore/2.4.0 obcore
-src/thirdparty/gls/1.0.0 gls
 src/thirdparty/ftgl/2.1.3rc5 ftgl
 src/thirdparty/indigo/1.2.3 indigo
 src/thirdparty/qcustomplot/2.0.1 qcustomplot

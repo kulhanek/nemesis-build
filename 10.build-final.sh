@@ -22,7 +22,7 @@ if ! type module &> /dev/null; then
 fi
 
 module add cmake git
-module add qt:5.9.1
+module add qt:5.9.6
 
 # ------------------------------------
 
