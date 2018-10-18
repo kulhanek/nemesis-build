@@ -72,8 +72,8 @@ cat > $SOFTBLDS/$NAME:$VERS:$ARCH:$MODE.bld << EOF
     <deps>
         <dep name="libfftw3-dev"            type="deb"/>
         <dep name="libreadline-dev"         type="deb"/>
-        <dep name="qt:5.5.1"                type="sync"/>
-        <dep name="libgstreamer-plugins-base0.10-0"  type="deb"/>
+        <dep name="libgfortran3"            type="deb"/>
+        <dep name="qt:5.9.6"                type="sync"/>
     </deps>
 </build>
 EOF
