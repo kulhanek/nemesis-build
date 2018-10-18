@@ -34,7 +34,7 @@ $ make install
 
 ### Activation of Plugins
 ```bash
-$ cd src/project/nemesis/18.x/etc/plugins # or to installation etc/ subdirectory
+$ cd src/projects/nemesis/18.x/etc/plugins # or to installation etc/ subdirectory
 $ ./ConnectPlugins.sh all
 $ ./ConnectPlugins.sh
 ``` 
