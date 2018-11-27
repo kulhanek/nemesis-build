@@ -74,7 +74,7 @@ cat > $SOFTBLDS/$NAME:$VERS:$ARCH:$MODE.bld << EOF
         <dep name="libreadline-dev"         type="deb"/>
         <dep name="libgfortran3"            type="deb"/>
         <dep name="qt:5.9.6"                type="sync"/>
-        <dep name="symmol"                  type="prepend"/>
+        <dep name="symmol"                  type="pre"/>
     </deps>
 </build>
 EOF
