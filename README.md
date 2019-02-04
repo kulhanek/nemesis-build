@@ -40,7 +40,7 @@ $ ./ConnectPlugins.sh
 ``` 
 
 ## Dependencies
-* qt5
-* OpenGL
-* libfreetype6-dev
-
+* Ubuntu 18.04 LTS (Desktop)
+```bash
+$ sudo apt-get install git cmake g++ gfortran libfreetype6-dev libgl1-mesa-dev libglu1-mesa-dev libqt5opengl5-dev qtscript5-dev libqt5svg5-dev qtwebengine5-dev
+```
